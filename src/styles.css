@@ -1,0 +1,17 @@
+button {
+  cursor: pointer;
+}
+
+.app {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  .app {
+    box-sizing: border-box;
+  }
+}

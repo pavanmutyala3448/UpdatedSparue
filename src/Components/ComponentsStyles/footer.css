@@ -1,0 +1,152 @@
+.footer {
+  width: 100%;
+  position: relative;
+  background-color: #181c28;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.heading4 {
+  text-align: left;
+  font-size: 18px;
+}
+
+.footer-1 {
+  width: 100%;
+  display: grid;
+  grid-column-gap: 130px;
+  grid-template-columns: repeat(4, 2fr);
+}
+
+.item-1 img {
+  width: 120px;
+}
+
+.social-icons {
+  display: flex;
+  width: 100px;
+  margin: 1px auto;
+}
+
+.fab {
+  width: 100px;
+}
+
+.nav-list {
+  opacity: 0.6;
+}
+.sub-footer {
+  padding: 0;
+}
+
+.footer-item {
+  display: block;
+  margin: 10px auto 10px auto;
+  text-align: left;
+}
+
+.footer-link {
+  color: white;
+  font-weight: 100;
+
+  text-align: left;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: white;
+}
+
+.Address-bar {
+  width: 100%;
+  display: block;
+  margin-top: 20px;
+  padding: 20px;
+}
+.address {
+  max-width: 100%;
+  font-weight: 200;
+  font-size: 15px;
+  text-align: left;
+  opacity: 0.5;
+}
+.mail {
+  max-width: 100%;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: left;
+  opacity: 0.5;
+}
+@media (max-width: 700px) {
+  .footer {
+    width: 100%;
+
+    background-color: #181c28;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .f-item {
+    padding: 20px;
+  }
+  .heading4 {
+    text-align: left;
+    font-size: 14px;
+  }
+  .footer-1 {
+    display: grid;
+    grid-column-gap: 40px;
+    grid-template-columns: repeat(4, 2fr);
+  }
+  .footer-item {
+    display: block;
+    margin: 1px auto;
+    text-align: left;
+  }
+  .Address-bar {
+    width: 100%;
+  }
+  .address {
+    width: 100%;
+    font-size: 10px;
+    font-weight: 200;
+    padding: 20px;
+  }
+  .mail {
+    width: 100%;
+    font-size: 10px;
+    font-weight: 200;
+    padding: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .footer {
+    width: 100%;
+
+    background-color: #181c28;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  .f-item {
+    padding: 20px;
+  }
+  .footer-1 {
+    display: grid;
+    grid-column-gap: 40px;
+    grid-template-columns: repeat(4, 2fr);
+  }
+  .footer-item {
+    display: block;
+    margin: 1px auto;
+    text-align: left;
+  }
+}
